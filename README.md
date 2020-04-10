@@ -24,7 +24,7 @@ On the FileSystem panel, drag and drop resource "controller/resources/dpad.tres"
 * Implement buttons for various actions (such as for jumping)
 
 ### Bugs to fix
-* Resources cannot change their variables despite
+* Resources cannot change their exported variables
 
 ## Author
 * mechPenSketch
