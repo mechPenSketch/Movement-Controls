@@ -15,6 +15,17 @@ The first scene shows a big, red circle with four panels behind it. The red circ
 ### Attaching another controller
 On the FileSystem panel, drag and drop resource "controller/resources/dpad.tres" into the "controller" variable. You can now use the arrow keys to move the red circle!
 
+## Future Update
+
+### Major Updates
+* Account for more than one player
+
+### Minor Updates
+* Implement buttons for various actions (such as for jumping)
+
+### Bugs to fix
+* Resources cannot change their variables despite
+
 ## Author
 * mechPenSketch
 
