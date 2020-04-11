@@ -15,9 +15,26 @@ The first scene shows a big, red circle with four panels behind it. The red circ
 ### Attaching another controller
 On the FileSystem panel, drag and drop resource "controller/resources/dpad.tres" into the "controller" variable. You can now use the arrow keys to move the red circle!
 
+<<<<<<< HEAD
 ### Changing input names
 The resource files have customizable variables such as "input_left" which contain the names of input action. Refer to Project Settings > Input Map to edit the list of actions.
 
+=======
+### Applicability
+When you create a playable character that moves around, you can create an exported variable like this:
+```gdscript
+export (Resource) var controller
+```
+This way, you can drag an drop the appropriate resource file into the variable.
+
+To make use of the resource file, call the following function:
+```gdscript
+func _input(event):	
+	var dir: Vector2 = controller.directional_event(event)
+	pass
+```
+In the input function, call controller.directional_event(event) and expect a Vector2 of base direction to be returned.
+>>>>>>> 7236306a085fdd11e18139aa6f8ceef091ff55e8
 ## Future Update
 
 ### Major Updates
