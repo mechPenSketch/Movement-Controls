@@ -1,5 +1,7 @@
 extends Resource
 
+class_name Controller
+
 export (String) var input_left = "ui_left"
 export (String) var input_right = "ui_right"
 export (String) var input_up = "ui_up"

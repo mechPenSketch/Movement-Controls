@@ -15,6 +15,9 @@ The first scene shows a big, red circle with four panels behind it. The red circ
 ### Attaching another controller
 On the FileSystem panel, drag and drop resource "controller/resources/dpad.tres" into the "controller" variable. You can now use the arrow keys to move the red circle!
 
+### Changing input names
+The resource files have customizable variables such as "input_left" which contain the names of input action. Refer to Project Settings > Input Map to edit the list of actions.
+
 ## Future Update
 
 ### Major Updates
@@ -24,7 +27,6 @@ On the FileSystem panel, drag and drop resource "controller/resources/dpad.tres"
 * Implement buttons for various actions (such as for jumping)
 
 ### Bugs to fix
-* Resources cannot change their exported variables
 
 ## Author
 * mechPenSketch

@@ -4,3 +4,7 @@
 
 [resource]
 script = ExtResource( 1 )
+input_left = "ui_left"
+input_right = "ui_right"
+input_up = "ui_up"
+input_down = "ui_down"

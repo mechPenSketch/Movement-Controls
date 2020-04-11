@@ -8,9 +8,14 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Resource",
+"class": "Controller",
+"language": "GDScript",
+"path": "res://controller/scripts/Controller.gd"
+} ]
 _global_script_class_icons={
-
+"Controller": ""
 }
 
 [application]
@@ -18,10 +23,6 @@ _global_script_class_icons={
 config/name="Movement Controls"
 run/main_scene="res://example/Main.tscn"
 config/icon="res://icon.png"
-
-[autoload]
-
-Controller="*res://controller/scripts/Controller.gd"
 
 [input]
 
